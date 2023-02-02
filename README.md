@@ -6,4 +6,4 @@ Tive uma dificuldade ao incluir o resultado mas consegui com ajuda do site "stac
 
 Na estilização do projeto, tive como ajuda o site "colorhunt" me proporcionando boas paletas de cores, e o "w3bai.com" para customizar melhor o botão que leva o resultado a tela.
 
-<iframe src="https://giphy.com/embed/sqmHfzZ9KjpKzszwRn" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/sqmHfzZ9KjpKzszwRn">via GIPHY</a></p>
+<div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/sqmHfzZ9KjpKzszwRn" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/sqmHfzZ9KjpKzszwRn">via GIPHY</a></p>
