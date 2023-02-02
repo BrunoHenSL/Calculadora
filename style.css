@@ -1,0 +1,96 @@
+body{
+    background-color: #ABC270;
+}
+
+form{
+    width: 400px;
+    height: 300px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #FEC868;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 5px 5px 20px rgb(0, 0, 0);
+}
+
+#calcu{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text1{
+    color: #473C33;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 35px;
+}
+
+#numb1{
+    width: 70px;
+    height: 30px;
+    font-size: 18px;
+    text-align: right;
+    margin: 15px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+#operacao{
+    width: 70px;
+    height: 30px;
+    font-size: 18px;
+    margin: 15px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+#numb2{
+    width: 70px;
+    height: 30px;
+    font-size: 18px;
+    text-align: right;
+    margin: 15px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px;
+}
+
+input[type="button"]{
+    width: 115px;
+    height: 40px;
+    font-size: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #424242;
+    text-transform: uppercase;
+    color: rgb(250, 250, 250);
+    padding: 5px;
+    cursor: pointer;
+}
+input[type="button"]:hover{
+    background-color: #20262E;
+}
+input[type="button"]:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(3px);
+}
+
+.text2{
+    color: #473C33;
+    font-size: 25px;
+}
+
+input[type="text"]{
+    width: 70px;
+    height: 30px;
+    font-size: 18px;
+    text-align: center;
+    margin: 0px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px;
+}

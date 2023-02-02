@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" type="text/css" rel="stylesheet" />
+    <title>Treinamento Calculadora</title>
+</head>
+<body>
+    <section id="calcu">  
+        <h1 class="text1">Calculadora Dinâmica</h1>
+        <form>
+            <div>
+                <input name="n1" id="numb1" />
+                <select id="operacao">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                </select>
+                <input name="n2" id="numb2" />
+                <br />
+                <input type="button" value="Calcular" onclick="calcDinamica()" />
+                <br /> <br /> 
+                <h3 class="text2"> O resultado é: </h3>
+                <input type="text" id="tela0" readonly value="0"/>
+            </div>
+        </form>
+    </section>
+    <script src="./operations.js"></script>
+</body>
+</html>
